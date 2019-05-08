@@ -1,0 +1,23 @@
+{
+  "name": "hc-honeypack-intl-plugin",
+  "version": "0.0.7",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:node-honeycomb/hc-honeypack-intl-plugin.git"
+  },
+  "author": "baqian",
+  "license": "MIT",
+  "scripts": {
+    "pub": "npm publish --registry=http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "hc-honeypack-extract-plugin": "~0.0.1",
+    "java-properties": "^0.2.4",
+    "mkdirp": "^0.5.1",
+    "l20n": "3.4.1",
+    "flat": "~1.6.0",
+    "json-stable-stringify": "~1.0.0"
+  }
+}
